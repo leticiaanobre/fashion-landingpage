@@ -6,10 +6,10 @@ Veja a ilustração do [Projeto](https://github.com/facebook/create-react-app).
 
 Página simples de uma landing page com tema fashion e design limpo e minimalista.
 
-### `Tecnologias`
+### Tecnologias
 
 Javascript, ReactJS, CSS, HTML, Nodejs.
 
-### Resultado
+### `Resultado`
 
 <img src="/src//images//Landing-page-fashion.png">

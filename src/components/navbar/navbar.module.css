@@ -1,0 +1,26 @@
+.navbar, .listNames, .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    align-items: center;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+}
+
+.listNames {
+    width: 30%;
+    list-style: none;
+}
+
+.listNames li {
+    cursor: pointer;
+}
+
+.items {
+    gap: 0.5rem;
+    cursor: pointer;
+}

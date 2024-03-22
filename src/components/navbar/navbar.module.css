@@ -14,13 +14,26 @@
 .listNames {
     width: 30%;
     list-style: none;
+    height: 45px;
+    margin-top: 10px;
 }
 
 .listNames li {
     cursor: pointer;
 }
 
+.listNames li:hover {
+    color: #FAA644;
+    transition: 0.2s;
+    border-bottom: 1.5px solid #FAA644;
+}
+
 .items {
     gap: 0.5rem;
     cursor: pointer;
+}
+
+.item:hover{
+    color: #FAA644;
+    transition: 0.2s;
 }

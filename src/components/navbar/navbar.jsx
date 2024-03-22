@@ -15,8 +15,8 @@ export default function Navbar() {
             <li>Blog</li>
         </ul>
         <div className={styles.items}>
-            <Search />
-            <ShoppingCart strokeWidth={1.25} />
+            <Search className={styles.item}/>
+            <ShoppingCart className={styles.item} strokeWidth={1.25} />
         </div>
     </nav>
   )

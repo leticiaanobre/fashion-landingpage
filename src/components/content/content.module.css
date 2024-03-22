@@ -40,6 +40,11 @@
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.contentButton:hover {
+    background: #FAA644;
 }
 
 .contentImageContainer {

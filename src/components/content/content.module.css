@@ -56,3 +56,18 @@
 .contentImageContainer img {
     margin-bottom: -3px;
 }
+
+.modalOpen {
+    animation: fadeIn 0.3s forwards ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      left: 30%;
+    }
+    to {
+      opacity: 1;
+      left: 0;
+    }
+  }

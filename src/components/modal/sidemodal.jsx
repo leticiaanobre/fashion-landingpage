@@ -20,7 +20,7 @@ export default function Modal({ isOpen, children }) {
     position: 'fixed',
     top: '0',
     right: '0', 
-    transform: 'translate(175%, 0%)', 
+    transform: 'translateX(100%)', 
     width: '240px', 
     height: '100vh',
     maxHeight: '100vh', 
